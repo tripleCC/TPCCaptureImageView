@@ -14,6 +14,7 @@
 		D6D2EDE01B35491200EB08BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D2EDDF1B35491200EB08BB /* Images.xcassets */; };
 		D6D2EDE31B35491200EB08BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D2EDE11B35491200EB08BB /* LaunchScreen.xib */; };
 		D6D2EDEF1B35491200EB08BB /* TPCCaptureImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D2EDEE1B35491200EB08BB /* TPCCaptureImageViewTests.m */; };
+		D6D2EDFF1B3549CE00EB08BB /* TPCCaptureImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D2EDFE1B3549CE00EB08BB /* TPCCaptureImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D6D2EDE81B35491200EB08BB /* TPCCaptureImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPCCaptureImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D2EDED1B35491200EB08BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D2EDEE1B35491200EB08BB /* TPCCaptureImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPCCaptureImageViewTests.m; sourceTree = "<group>"; };
+		D6D2EDFD1B3549CE00EB08BB /* TPCCaptureImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCCaptureImageView.h; sourceTree = "<group>"; };
+		D6D2EDFE1B3549CE00EB08BB /* TPCCaptureImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCCaptureImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		D6D2EDD11B35491200EB08BB /* TPCCaptureImageView */ = {
 			isa = PBXGroup;
 			children = (
+				D6D2EDF81B35495500EB08BB /* Classes */,
 				D6D2EDD61B35491200EB08BB /* AppDelegate.h */,
 				D6D2EDD71B35491200EB08BB /* AppDelegate.m */,
 				D6D2EDD91B35491200EB08BB /* ViewController.h */,
@@ -117,6 +121,23 @@
 				D6D2EDED1B35491200EB08BB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6D2EDF81B35495500EB08BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D6D2EDF91B35495500EB08BB /* TPCCaptureImageView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D6D2EDF91B35495500EB08BB /* TPCCaptureImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D6D2EDFD1B3549CE00EB08BB /* TPCCaptureImageView.h */,
+				D6D2EDFE1B3549CE00EB08BB /* TPCCaptureImageView.m */,
+			);
+			path = TPCCaptureImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D2EDDB1B35491200EB08BB /* ViewController.m in Sources */,
+				D6D2EDFF1B3549CE00EB08BB /* TPCCaptureImageView.m in Sources */,
 				D6D2EDD81B35491200EB08BB /* AppDelegate.m in Sources */,
 				D6D2EDD51B35491200EB08BB /* main.m in Sources */,
 			);
