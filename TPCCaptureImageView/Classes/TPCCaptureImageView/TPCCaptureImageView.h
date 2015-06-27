@@ -1,6 +1,5 @@
 //
 //  TPCCaptureImageView.h
-//  0150619图片上下文
 //
 //  Created by 宋瑞旺 on 15/6/20.
 //  Copyright (c) 2015年 tripleCC. All rights reserved.
